@@ -1,0 +1,13 @@
+[package]
+
+name = "test"
+version = "0.1.0-pre"
+authors = ["hello@erikhedvall.nu"]
+
+[lib]
+
+name = "test"
+path = "src/main.rs"
+
+[dependencies.rustful]
+git = "https://github.com/Ogeon/rustful"
